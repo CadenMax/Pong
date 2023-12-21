@@ -1,0 +1,31 @@
+.game-container {
+    width: 800px;
+    /* 4:3 ratio, 800x600 */
+    height: 600px;
+    margin: 0 auto;
+    position: relative;
+    background-color: white;
+    border: 2px solid black;
+    margin-top: 10px;
+}
+
+.paddle {
+    width: 20px;
+    height: 100px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+}
+
+.ball {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.score {
+    position: absolute;
+    font-size: 2rem;
+    color: black;
+}
